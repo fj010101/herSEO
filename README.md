@@ -6,6 +6,11 @@ A website refactored for accessibility standards, optimizing it for search engin
 
 This project involves the refactoring of an existing website for a marketing agency called herSEO. The goal is to ensure the codebase follows accessibility standards, making the site more user-friendly and optimized for search engines.
 
+## Visual
+
+![image](https://github.com/fj010101/herSEO/assets/151868892/fd49e5d1-1eba-4dde-a1b8-a343bcca15c6)
+
+
 ## Table of Contents
 
 - [Features](#features)
