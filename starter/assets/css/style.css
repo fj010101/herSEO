@@ -1,13 +1,16 @@
+/* Apply a reset to ensure consistent styling across browsers */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set a background color for the entire body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Style the header with appropriate padding and font */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Style the heading within the header section */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Style specific elements within the heading for SEO */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Style the navigation section on the right side of the header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Style the unordered list within the navigation section */
 .header div ul {
     list-style-type: none;
 }
 
+/* Style list items within the unordered list */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Style anchor elements with a specific color and remove underlines */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Style paragraph elements with a specific font size */
 p {
     font-size: 16px;
 }
 
+/* Style the hero section with a background image and specified dimensions */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +70,7 @@ p {
     background-position: center;
 }
 
+/* Create utility classes for floating elements to the left or right */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +81,14 @@ p {
     margin-left: 25px;
 }
 
+/* Style the content section with a specified width and margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Style the benefits section with specified dimensions, font, and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,72 +100,34 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Style individual benefit sections with specified margins and font color */
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Style heading elements within benefit sections with specified margins and text alignment */
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Style images within benefit sections with specified margins and maximum width */
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* Style sections for SEO, online reputation management, and social media marketing with specified dimensions, font, and background color */
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +137,22 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/* Style images within SEO, online reputation management, and social media marketing sections with specified maximum height */
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Style heading elements within SEO, online reputation management, and social media marketing sections with specified margins and font size */
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Style the footer section with specified padding, font, and text alignment */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +160,7 @@ p {
     text-align: center;
 }
 
+/* Style heading elements within the footer section with a specified font size */
 .footer h2 {
     font-size: 20px;
 }
